@@ -16,9 +16,9 @@ public class ProductDAO {
 		List<Product> result = new ArrayList<Product>();
 		System.out.println("====================================");
 
-		result.add(new Product("p01", "name 1", 1000));
-		result.add(new Product("p02", "name 2", 2000));
-		result.add(new Product("p03", "name 3", 3000));
+		result.add(new Product("p01", "name 1", 10000));
+		result.add(new Product("p02", "name 2", 20000));
+		result.add(new Product("p03", "name 3", 30000));
 		return result;
 	}
 	
