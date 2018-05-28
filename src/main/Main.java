@@ -12,7 +12,7 @@ public class Main {
 			DemoImplService demoImplService = new DemoImplServiceLocator();
 			Demo demo = demoImplService.getDemoImplPort();
 			System.out.println(demo.helloworld());
-			System.out.println(demo.hi("ABC"));
+			System.out.println(demo.hi("SAI"));
 			
 			ProductWSImplService productWSImplService = new ProductWSImplServiceLocator();
 			ProductWS productWS = productWSImplService.getProductWSImplPort();
